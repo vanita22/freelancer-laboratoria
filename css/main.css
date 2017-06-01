@@ -32,11 +32,8 @@
  }
  
  .menu ul li{
-
  	display: inline-block;
- 	display: inline-block; 	
-
- }
+ 	 }
 
  .menu ul li a{
  	margin-right: 20px;
@@ -83,7 +80,7 @@
 }
 
 .cont i{
-	margin-left: 50px;
+	
 	font-size: 40px;
 	width: 70px;
 	display: inline-block;
@@ -161,9 +158,6 @@
 	margin-top: 15px;
 }
 
-/*tercera caja*/
-
-
 .cont2 h1{
 	text-align: center;
 	color: black;
@@ -171,20 +165,7 @@
 	font-size: 50px;
 }
 
-.cont3 .linea-a{
-	border-bottom: 7px solid white;
-	width: 100px;
-	display: inline-block;
-	
-}
-
-.cont3 .linea-b{
-	border-bottom: 7px solid white;
-	width: 100px;
-	display: inline-block;	
-}
-
-
+/*tercera caja*/
 
 .cont3{
 	background-color: #2AB582;
@@ -206,11 +187,22 @@
 	font-size: 50px;
 }
 
-.cont3 i{
-	margin-left: 10px;
+.cont3 i{	
 	font-size: 30px;
-	font-size: 40px;
-	width: 20px;
+	width: 70px;
+	display: inline-block;
+}
+
+.cont3 .linea-a{
+	border-bottom: 7px solid white;
+	width: 100px;
+	display: inline-block;
+	
+}
+
+.cont3 .linea-b{
+	border-bottom: 7px solid white;
+	width: 100px;
 	display: inline-block;
 }
 
@@ -232,5 +224,3 @@
 	font-size: 20px;
 	margin-left: 0;
 }
-
-
