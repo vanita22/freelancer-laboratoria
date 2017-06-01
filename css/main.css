@@ -148,7 +148,7 @@
 }
 
 .col-4{
-	width: 33.333333%;	
+	width: 30%;	
 }
 
 .cont2 h1{
@@ -168,7 +168,7 @@
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	position: absolute;
 	margin-top: 90px;
 	padding: 10px 20px;
@@ -204,7 +204,7 @@ button{
 	background-color: #2AB582;
 	border: 5px solid white;
 	border-radius: 8px;		
-	width: 260px;
+	width: 290px;
 	padding: 10px;
 	font-size: 20px;
 }
@@ -213,8 +213,8 @@ button i{
 	font-size: 20px;
 }
 
-.col-6 p{
-	width: 50%;
+.col-3{
+	width: 25%;
 }
 
 /*cuarta caja*/
@@ -228,9 +228,9 @@ button i{
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 200%;
+	height: 100%;
 	position: relative;
-	margin-top: 700px;
+	margin-top: 740px;
 	padding: 10px 20px;
 	display: inline-block;
 }
@@ -238,7 +238,7 @@ button i{
 .cont4 h1{
 	text-align: center;
 	color: black;
-	margin-top: 20px;
+	margin-top: 40px;
 	font-size: 50px;
 }
 
@@ -269,5 +269,35 @@ form{
 form button{
 	width: 80px;
 }
+
+/*quinta caja*/
+
+.cont5{
+	background-color: #4A4C4B;
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	left: 0;
+  	right: 0;
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	margin-top: 140px;
+	padding: 10px 20px;
+}
+
+.cont5 h1{
+	font-size: 25px;
+}
+
+.cont5 h2{
+	font-size: 15px;
+}
+
+.cont5 .col-4{
+	width: 30%;	
+}
+
+
 
 
