@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
@@ -19,58 +20,144 @@
 				<h1>START BOOTSTRAP</h1>
 			</div>
 						
-			<nav class="menu">
+			<nav class="menu collapse navbar-collapse">
 				<ul>
-					<li><a href="#">PORTAFOLIO</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">CONTACT</a></li>					
+					<li class="page-scroll"><a href="#porta">PORTAFOLIO</a></li>
+					<li class="page-scroll"><a href="#abo">ABOUT</a></li>
+					<li class="page-scroll"><a href="#contac">CONTACT</a></li>					
 				</ul>
-			</nav>
-				
+			</nav>				
 		</div>
+
+		</header>
+		<!--primera caja-->
 
 		<div class="cont" align="center">
 			<img src="assets/images/profile.png">
-			<h1>START BOOTSTRAP</h1>
+			<h1><strong>START BOOTSTRAP</strong></h1>
 			<div class="linea-a"></div><i class="fa fa-star" aria-hidden="true"></i><div class="linea-b"></div>
 				<section class="parrafo">
 					<p class="uno">Web Developer - Graphic Artist - User Experience Designer</p>					
 				</section>
 		</div>
 
-		<div class="cont2">
-			<h1>PORTAFOLIO</h1>
-			
-				<section class="imagenes">
-						
-					
-				</section>
-		</div>
+		
+		<!--segunda caja-->
 
-		<div class="cont3">
+		<div class="cont2" align="center" id="porta">
+			<h1>PORTAFOLIO</h1>	
+			<div class="linea-a"></div><i class="fa fa-star" aria-hidden="true"></i><div class="linea-b"></div>		
+				<div class="imagenes">
+					<div class="col-3">
+						<img src="assets/images/portfolio/cabin.png" alt="" width="300">
+					</div>
+					<div class="col-3">
+						<img src="assets/images/portfolio/cake.png" alt="" width="300">	
+					</div>
+					<div class="col-3">
+						<img src="assets/images/portfolio/circus.png" alt="" width="300">
+					</div>
+					<div class="col-3">
+						<img src="assets/images/portfolio/game.png" alt="" width="300">	
+					</div>
+					<div class="col-3">
+						<img src="assets/images/portfolio/safe.png" alt="" width="300">	
+					</div>
+					<div class="col-3">
+						<img src="assets/images/portfolio/submarine.png" alt="" width="300">
+					</div>	
+				</div>
+		</div>
+		
+		<!--tercera caja-->
+
+		<div class="cont3" id="abo" align="center">
 			<h1>ABOUT</h1>
 			<div class="linea-a"></div><i class="fa fa-star" aria-hidden="true"></i><div class="linea-b"></div>
-				<section class="parrafo">
-					<p class="uno">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				
+				<div class="row">
+					<div class="col-3">
+						<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					consequat.</p>
+					</div>
+					<div class="col-3">
+						<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+				</div>							
 					
-					<p class="dos">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					
-					<button><i class="fa fa-download" aria-hidden="true"></i> Donwload Theme</button>
-				</section>
+				<button><i class="fa fa-download" aria-hidden="true"></i> Donwload Theme</button>			
 		</div>
 
-		
-	</header>
+		<!--cuarta caja-->
+
+		<div class="cont4" align="center" id="contac">
+			<h1>CONTACT ME</h1>	
+			<div class="linea-a"></div><i class="fa fa-star" aria-hidden="true"></i><div class="linea-b"></div>		
+				
+				<form action="#" method="post" align="left">
+				<div class="line"></div>
+					<div><br>						
+						<label for="name">Nombre:</label>
+						<input type="text" name="name" id="name" value=""/>
+					</div><br>
+
+				<div class="line"></div>
+					<div><br>						
+						<label for="email">Email Addres:</label>
+						<input type="text" name="email" id="email" value=""/>
+					</div><br>
+
+				<div class="line"></div>
+					<div><br>						
+						<label for="tel">Phone Number:</label>
+						<input type="number" name="tel" id="tel" value=""/>
+					</div><br>
+
+				<div class="line"></div>				
+					<div><br>
+						<label for="textarea">Message:</label><br>
+						<textarea cols="140" rows="12" name="textarea" id="textarea"></textarea>
+					</div>
+				<div class="line"></div>	
+					<div>
+						<button>Send</button>
+					</div>
+				</form>
+		</div>
+
+		<!--quinta caja-->
+
+		<div class="cont5" id="caj5" align="center">
+			<div class="row">
+					<div class="col-4">
+						<h1>LOCATION</h1>
+						<H2>3481 Melrose Place<br>Beverly Hills, CA 90210</H2>
+					</div>
+					<div class="col-4">
+						<h1>AROUND THE WEB</h1>
+							<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-4">
+						<h1>ABOUT FREELANCER</h1>
+						<H2>Freelance is a free to use, open source<br>Bootstrap theme created by <a href="#">Start<br>Bootstrap.</a></H2>
+					</div>
+				</div>							
+							
+		</div>
+
+		<footer>
+			<div align="center">
+				<h2>Copyright © Your Website 2017</h2>
+				<h2>Diseñado por: Inés Vanessa Pérez Chávez</h2>
+			</div>
+		</footer>
 
 	<!-- Enlaza aquí tu archivo JS -->
 	<script type="text/javascript" src="js/app.js"></script>	
