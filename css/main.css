@@ -2,7 +2,7 @@
  * Estilos de tu proyecto
  */
 *{
-	font-family: "Helvetica Neue";
+	font-family: "Montserrat";
  	color: white;
 }
  .contenedor{
@@ -32,10 +32,170 @@
  
  .menu ul li{
  	display: inline-block;
- 	box-shadow: 3px 4px 3px rgba(0,0,0,.5);
+ 	
  }
 
  .menu ul li a{
  	margin-right: 20px;
  	text-decoration: none; 
  }
+
+ a:hover {
+  background-color: #2AB582;  /*para darle color a cada pestaña del menu*/
+  padding: 10px;
+}
+
+/*primera caja*/
+
+.cont{
+	background-color: #2AB582;
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	left: 0;
+  	right: 0;
+	width: 100%;
+	height: 180%;
+	position: relative;
+	margin-top: 60px;
+	padding: 10px 20px;
+}
+
+.cont img{
+	margin-top: 100px;
+}
+
+.cont h1{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 55px;
+}
+
+.cont i{
+	font-size: 30px;
+	width: 70px;
+	display: inline-block;
+}
+
+.cont p{
+	font-size: 20px;
+}
+
+.linea-a{
+	border-bottom: 7px solid white;
+	width: 100px;
+	display: inline-block;
+}
+
+.linea-b{
+	border-bottom: 7px solid white;
+	width: 100px;
+	display: inline-block;
+}
+
+/*segunda caja*/
+
+.cont2{
+	background-color: white;
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	left: 0;
+  	right: 0;
+	width: 100%;
+	height: 200%;
+	position: relative;
+	margin-top: 50px;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.cont2 h1{
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+	font-size: 50px;
+}
+
+.cont2 .linea-a{
+	border-bottom: 7px solid black;
+	width: 100px;
+	display: inline-block;
+}
+
+.cont2 .linea-b{
+	border-bottom: 7px solid black;
+	width: 100px;
+	display: inline-block;
+}
+
+.cont2 i{
+	font-size: 30px;
+	width: 70px;
+	display: inline-block;
+	color: black;
+}
+
+.cont2 .imagenes{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 25px;
+}
+
+.cont2 img{
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+/*tercera caja*/
+
+.cont3{
+	background-color: #2AB582;
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	left: 0;
+  	right: 0;
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	margin-top: 90px;
+	padding: 10px 20px;
+}
+
+.cont3 h1{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 50px;
+}
+
+
+
+.cont3 i{
+	margin-left: 10px;
+	font-size: 40px;
+	width: 20px;
+	display: inline-block;
+}
+
+
+
+.parrafo .uno .dos{
+	position: relative;
+	display: inline-block;
+}
+
+.parrafo button{
+	background-color: #2AB582;
+	border: 5px solid white;
+	border-radius: 8px;	
+	margin-left: 550px;
+	width: 210px;
+	padding: 5px;
+}
+
+.parrafo button i{
+	font-size: 20px;
+	margin-left: 0;
+}
+
