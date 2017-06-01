@@ -14,6 +14,7 @@
  	left: 0;
  	display: inline-block; 
  	z-index: 1;	
+ 	padding: 5px 10px;
  }
 
  .contenedor .logo{
@@ -31,18 +32,22 @@
  }
  
  .menu ul li{
+
  	display: inline-block;
- 	
+ 	display: inline-block; 	
+
  }
 
  .menu ul li a{
  	margin-right: 20px;
  	text-decoration: none; 
+ 	width: 100px;
+ 	height: 80px; 
  }
 
  a:hover {
-  background-color: #2AB582;  /*para darle color a cada pestaña del menu*/
-  padding: 10px;
+ 	background-color: #2AB582;  /*para darle color a cada pestaña del menu*/
+	padding: 10px;
 }
 
 /*primera caja*/
@@ -56,6 +61,7 @@
   	right: 0;
 	width: 100%;
 	height: 180%;
+	height: 170%;
 	position: relative;
 	margin-top: 60px;
 	padding: 10px 20px;
@@ -73,9 +79,16 @@
 
 .cont i{
 	font-size: 30px;
+	font-size: 50px;
+}
+
+.cont i{
+	margin-left: 50px;
+	font-size: 40px;
 	width: 70px;
 	display: inline-block;
 }
+
 
 .cont p{
 	font-size: 20px;
@@ -94,6 +107,7 @@
 }
 
 /*segunda caja*/
+
 
 .cont2{
 	background-color: white;
@@ -149,6 +163,29 @@
 
 /*tercera caja*/
 
+
+.cont2 h1{
+	text-align: center;
+	color: black;
+	margin-top: 60px;
+	font-size: 50px;
+}
+
+.cont3 .linea-a{
+	border-bottom: 7px solid white;
+	width: 100px;
+	display: inline-block;
+	
+}
+
+.cont3 .linea-b{
+	border-bottom: 7px solid white;
+	width: 100px;
+	display: inline-block;	
+}
+
+
+
 .cont3{
 	background-color: #2AB582;
 	background-position: center;
@@ -169,16 +206,13 @@
 	font-size: 50px;
 }
 
-
-
 .cont3 i{
 	margin-left: 10px;
+	font-size: 30px;
 	font-size: 40px;
 	width: 20px;
 	display: inline-block;
 }
-
-
 
 .parrafo .uno .dos{
 	position: relative;
@@ -198,4 +232,5 @@
 	font-size: 20px;
 	margin-left: 0;
 }
+
 
