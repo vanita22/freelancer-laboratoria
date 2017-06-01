@@ -42,7 +42,7 @@
  	height: 80px; 
  }
 
- a:hover {
+ .menu a:hover {
  	background-color: #2AB582;  /*para darle color a cada pestaña del menu*/
 	padding: 10px;
 }
@@ -280,7 +280,7 @@ form button{
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 30%;
+	height: 25%;
 	position: absolute;
 	margin-top: 140px;
 	padding: 10px 20px;
@@ -296,6 +296,16 @@ form button{
 
 .cont5 .col-4{
 	width: 30%;	
+}
+
+.cont5 i{
+	font-size: 35px;
+	margin-right: 25px;
+}
+
+.cont5 a{
+	color: #2AB582;
+	text-decoration: none;
 }
 
 
