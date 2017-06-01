@@ -147,15 +147,8 @@
 	color: black;
 }
 
-.cont2 .imagenes{
-	display: inline-block;
-	margin-top: 20px;
-	padding: 25px;
-}
-
-.cont2 img{
-	margin-right: 20px;
-	margin-top: 15px;
+.cont2 .col-4{
+	width: 33.333333%;	
 }
 
 .cont2 h1{
@@ -175,7 +168,7 @@
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 70%;
+	height: 90%;
 	position: absolute;
 	margin-top: 90px;
 	padding: 10px 20px;
@@ -206,21 +199,22 @@
 	display: inline-block;
 }
 
-.parrafo .uno .dos{
-	position: relative;
-	display: inline-block;
-}
 
-.parrafo button{
+button{
 	background-color: #2AB582;
 	border: 5px solid white;
-	border-radius: 8px;	
-	margin-left: 550px;
-	width: 210px;
-	padding: 5px;
+	border-radius: 8px;		
+	width: 260px;
+	padding: 10px;
+	font-size: 20px;
 }
 
-.parrafo button i{
+button i{
 	font-size: 20px;
-	margin-left: 0;
 }
+
+.row, .col-6 p{
+	width: 50%;
+}
+
+
